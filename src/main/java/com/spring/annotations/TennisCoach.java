@@ -1,13 +1,17 @@
 package com.spring.annotations;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 // @Component("thatSillyCoach")
 @Component
+// @Scope("prototype")
 public class TennisCoach implements Coach {
-
 
     /*
      * Inorder to avoid the below exception we need to use the @Qualifire tag to
@@ -19,9 +23,22 @@ public class TennisCoach implements Coach {
      * randomFortuneService
      */
     @Autowired
-    // @Qualifier("happyFortuneService") 
-    @Qualifier("randomFortuneService") 
+    // @Qualifier("happyFortuneService")
+    @Qualifier("randomFortuneService")
     private FortuneService fortuneService;
+
+
+    // define init method
+    @PostConstruct
+    public void doMyStartUpStuff() {
+        System.out.println(">> Tennis Coach : inside of doMyStartUpStuff()");
+    }
+
+    // define my destroy method
+    @PreDestroy
+    public void doMyCleanUpUpStuff() {
+        System.out.println(">> Tennis Coach : inside of doMyCleanUpUpStuff()");
+    }
 
     /*
      * // Autowiring of constructor
