@@ -16,6 +16,7 @@ com\spring\annotations\SwimCoach.class
 com\spring\demo\HappyFortuneService.class
 com\spring\annotations\AnnotationBeanScopeDemoApp.class
 com\spring\annotations\SwimJavaConfigjavaDemo.class
+com\spring\webapp\SillyController.class
 com\spring\annotations\SportConfig.class
 com\spring\annotations\RESTFortuneService.class
 com\spring\demo\CricketCoach.class
