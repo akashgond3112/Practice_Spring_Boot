@@ -14,6 +14,7 @@
     <main>
         <h1>Hello world</h1>
         <p>Stuent name : ${param.studentName}</p>
+        <p>The message : ${message}</p>
     </main>
 </body>
 

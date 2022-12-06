@@ -12,10 +12,21 @@
 
 <body>
     <main>
-        <form class="product-form" action="processForm" method="GET">
+        <h1>processFormVersionTwo</h1>
+        <form class="product-form" action="processFormVersionTwo" method="GET">
             <div class="form-control">
                 <label for="title">Student name</label>
                 <input type="text" name="studentName" id="title" placeholder="What's your name?">
+            </div>
+
+            <button type="submit">Add name</button>
+        </form>
+
+        <h1>processFormVersionThree</h1>
+        <form class="product-form" action="processFormVersionThree" method="GET">
+            <div class="form-control">
+                <label for="title">Student name</label>
+                <input type="text" name="studentName" id="titleNew" placeholder="What's your name?">
             </div>
 
             <button type="submit">Add name</button>
