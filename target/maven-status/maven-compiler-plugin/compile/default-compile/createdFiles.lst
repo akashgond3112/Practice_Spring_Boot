@@ -17,6 +17,7 @@ com\spring\demo\HappyFortuneService.class
 com\spring\annotations\AnnotationBeanScopeDemoApp.class
 com\spring\annotations\SwimJavaConfigjavaDemo.class
 com\spring\webapp\SillyController.class
+com\spring\webapp\StudentController.class
 com\spring\annotations\SportConfig.class
 com\spring\annotations\RESTFortuneService.class
 com\spring\demo\CricketCoach.class
@@ -25,4 +26,5 @@ com\spring\demo\TrackCoach.class
 com\spring\annotations\JavaConfigDemoApp.class
 com\spring\demo\BeanScopeDemo.class
 com\spring\annotations\FortuneService.class
+com\spring\webapp\Student.class
 com\spring\demo\SpringHelloApp.class

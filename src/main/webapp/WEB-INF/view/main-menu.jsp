@@ -15,10 +15,12 @@
 <h2>Spring MVC Demo - Home Page</h2>
 
 <a href="hello/showForm">Plain Hello World</a>
+<br><br>
+<a href="student/showForm">Student Form</a>
 
 <br><br>
 
-<img src="${pageContext.request.contextPath}/resources/images/spring-logo.jpeg" />
+<img src="${pageContext.request.contextPath}/resources/images/spring-logo.jpeg"/>
 
 <br><br>
 
