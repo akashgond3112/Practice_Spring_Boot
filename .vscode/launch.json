@@ -22,5 +22,15 @@
       "command": "mvn -B test",
       "group": "build"
     }
+  ],
+  "configurations": [
+  
+    {
+      "type": "java",
+      "name": "CreateStudentDemo",
+      "request": "launch",
+      "mainClass": "com.spring.hibernate.demo.CreateStudentDemo",
+      "projectName": "springtutorial"
+    }
   ]
 }
